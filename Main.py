@@ -3,6 +3,11 @@ import requests
 from datetime import datetime, timedelta
 import library.lunar_phase_library as lunar
 
+st.set_page_config(
+    page_title="Moon Phases",
+    page_icon="🌒",
+)
+
 @st.cache_data()
 def fetch_url(url):
     response = requests.get(url)
