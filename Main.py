@@ -18,7 +18,7 @@ def fetch_url(url):
         return None
 
 st.title('Moon Phase')
-st.write('penampakan bulan berdasarkan tanggal')
+st.write('Explore the ever-changing phases of the moon! With just a few clicks')
 
 
 if 'selected_date' not in st.session_state:
