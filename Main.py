@@ -31,8 +31,8 @@ if decrement_button:
     
 formated_date = datetime.strftime(date, "%Y-%m-%d")
 
-hour = st.slider('hours', 0,23,0)
-min = st.slider('minutes', 0,60,0)
+hour = st.slider('Hours', 0,23,0)
+min = st.slider('Minutes', 0,59,0)
 
 if(len(str(hour)) == 1):
     hour = '0'+str(hour)
