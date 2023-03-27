@@ -17,7 +17,7 @@ def fetch_url(url):
         st.error(f"Error: {response.status_code}")
         return None
 
-st.title('Moon Phase')
+st.title('Moon Phases')
 st.write('Explore the ever-changing phases of the moon! With just a few clicks')
 
 col1, col2 = st.columns([3,1])
